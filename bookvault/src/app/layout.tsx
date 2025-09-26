@@ -8,12 +8,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <body>
+        {children}
         <header>
           <link href="/">Home</link>
           <link href="/about">Books</link>
           <link href="/contact">Add Books</link>
         </header>
-        {children}
+        
       </body>
     </html>
   );
