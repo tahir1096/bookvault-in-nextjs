@@ -3,19 +3,18 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Book Vault",
   description: "A book management app",
-};  
+};
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body>
-        {children}
         <header>
-          <link href="/">Home</link>
-          <link href="/about">Books</link>
-          <link href="/contact">Add Books</link>
+          <Link href="/">Home</Link>
+          <Link href="/books">Books</Link>
+          <Link href="/add-books">Add Books</Link>
         </header>
-        
-      </body>
-    </html>
+        <main>{children}</main>
+    </body>
+    </html >
   );
 }
