@@ -42,5 +42,13 @@ This project demonstrates **Next.js features** like routing, layouts, loading/er
 
 ---
 
-## 📂 Folder Structure
+🔥 Future Improvements
+
+Add DELETE and UPDATE book functionality
+
+Implement search & filter with searchParams
+
+Add authentication for adding/deleting books
+
+Connect to a real database (like MongoDB or PostgreSQL)
 
